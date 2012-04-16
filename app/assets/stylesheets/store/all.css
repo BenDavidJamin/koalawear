@@ -1,0 +1,140 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *
+
+ *= require store/spree_core
+
+
+ *= require_self
+ *= require_tree .
+*/
+a {
+    color:black;
+}
+
+#header{
+    background-image:url('toptitleKW.png');
+    background-repeat:no-repeat;
+    background-position:190px 25px;
+
+}
+#logo{
+    padding-top:20px;
+    padding-left:20px;
+    position:absolute;
+    width:auto;
+    z-index:1000;
+}
+
+.row {
+    width: 98%;
+    padding-right:0px;
+}
+.container .ten.columns{
+    width:40%;
+}
+
+.container .four.columns {
+    width:10%;
+    float:left;
+}
+
+.container .twelve.columns{
+    width:85%;
+    float:left;
+}
+.thumbnails{
+    float:right;
+    width:130px;
+}
+#product-thumbnails {
+    margin-top: -5px;
+}
+
+
+ul#products li .price {
+    color: black;
+    font-size: 12px;
+    text-align:left;
+}
+
+ul#products li a.info {
+margin-top: 5px;
+font-size: 12px;
+text-align:left;
+color: #BBB;
+}
+
+nav#top-nav-bar {
+    float:right;
+    padding-right:20px;
+}
+#product-thumbnails li{
+    border:none;
+}
+
+#product-images #main-image{
+    border:none;
+    float:left;
+}
+#thumbnails {
+    float:right;
+}
+
+#main-nav-bar {
+    padding-top:0px;
+    margin-left:0px;
+    z-index:100;
+}
+#home-link {
+    margin-left:180px;
+}
+
+.container .six.columns {
+    padding-top:20px;
+    width: 450px;
+}
+nav#taxonomies .taxons-list{
+    list-style:none;
+}
+
+nav#taxonomies .taxons-list li a {
+    color:grey;
+    list-style:none;
+}
+nav#taxonomies .taxons-list li a:selection {
+    color:black;
+}
+.container .sixteen.columns {
+width: 98%;
+}
+
+
+input[type="submit"], input[type="button"], input[type="reset"], button, a.button{
+    background-color: #333;
+}
+
+
+.container {
+    margin-left: 20px;
+    width: 98%;
+}
+
+ul#products li a.info {
+    border-bottom:none ;
+}
+
+ul#products li .product-image {
+    min-height: 220px;
+}
+
+nav#taxonomies .taxonomy-root {
+    text-transform: none;
+    color:#404042;
+}
+
+#product-description .product-title {
+    border-bottom: 2px dotted #DEDEDE;
+}
