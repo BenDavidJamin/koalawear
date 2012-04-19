@@ -4,5 +4,5 @@ Deface::Override.new(:virtual_path => "spree/home/index",
   
 "
       <%= image_tag 'homepage.jpg', :class => 'home_image' %>
-  "
+"
 end

@@ -10,8 +10,9 @@
  *= require_self
  *= require_tree .
 */
-a {
-    color:black;
+
+nav #main-nav-bar li#link-to-cart{
+    background:none;
 }
 
 #header{
