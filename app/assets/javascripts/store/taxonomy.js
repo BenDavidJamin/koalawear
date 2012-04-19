@@ -2,7 +2,7 @@
   $(document).ready(function(){
     $("ul.taxons-list").hide();
     
-    $("a").hover(
+    $("span").hover(
           function () {
             $(this).parent("h6").next("ul").show("slow");
             var noHide = $(this).parent("h6").next("ul").children()[0];
