@@ -15,6 +15,7 @@ group :assets do
   gem 'coffee-rails', '~> 3.1.1'
   gem 'pg'
   gem 'aws-s3'
+  gem 'aws-sdk'
   gem 'therubyracer-heroku'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer'
