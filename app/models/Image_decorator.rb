@@ -6,9 +6,5 @@ Spree::Image.class_eval do
     :product => '300x450>', # full product image
     :large => '750x1125>'},  # light box image
     :storage => :s3,
-    :bucket => ENV['S3_BUCKET_NAME'],
-    :s3_credentials => {
-      :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
-      :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
-    }
+    :s3_credentials => "#{RAILS_ROOT}/config/s3.yml",
 end
