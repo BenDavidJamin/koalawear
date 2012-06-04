@@ -7,6 +7,7 @@ gem 'rails', '3.1.4'
 
 
 gem 'json'
+gem 'taps'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -38,5 +39,3 @@ gem 'thin'
 # To use debugger
 # gem 'ruby-debug'
 gem 'spree', '1.0.3'
-
-
