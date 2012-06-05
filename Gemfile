@@ -7,17 +7,18 @@ gem 'rails', '3.1.4'
 
 
 gem 'json'
-gem 'taps'
-
+gem "deface", "~> 0.9.1"
+gem "multi_json", "~> 1.3.6"
+gem "sqlite3"
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
   gem 'sass-rails',   '~> 3.1.5'
   gem 'coffee-rails', '~> 3.1.1'
-  gem 'pg'
+  #gem 'pg'
   gem 'aws-s3'
   gem 'aws-sdk'
-  gem 'therubyracer-heroku'
+  #gem 'therubyracer-heroku'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer'
 
@@ -39,3 +40,5 @@ gem 'thin'
 # To use debugger
 # gem 'ruby-debug'
 gem 'spree', '1.0.3'
+
+

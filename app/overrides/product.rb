@@ -34,6 +34,7 @@ Deface::Override.new(:virtual_path => "spree/products/show",
                      :name => "properties", 
                      :remove => "[data-hook='product_properties']")
 
+
 Deface::Override.new(:virtual_path => "spree/products/_cart_form", 
                      :name => "remove_variants_title", 
                      :remove => ".product-section-title")

@@ -1,12 +1,14 @@
-development: &DEFAULTS
+development:
   bucket: "KoalaWear"
   access_key_id: "AKIAJG673TJKBRKYG2ZA"
   secret_access_key: "ARsvXTi4JBdgKvB2xxXxyynUlFqd2iHvFrHhFWjR"
 
 test:
-  <<: *DEFAULTS
   bucket: "KoalaWear"
+  access_key_id: "AKIAJG673TJKBRKYG2ZA"
+  secret_access_key: "ARsvXTi4JBdgKvB2xxXxyynUlFqd2iHvFrHhFWjR"
 
 production:
-  <<: *DEFAULTS
   bucket: "KoalaWear"
+  access_key_id: "AKIAJG673TJKBRKYG2ZA"
+  secret_access_key: "ARsvXTi4JBdgKvB2xxXxyynUlFqd2iHvFrHhFWjR"
